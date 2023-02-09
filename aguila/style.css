@@ -33,12 +33,26 @@ table, th, td {
 .education{
   text-align:center;
 }
+p{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
 .tab{
  margin-left:auto;
  margin-right:auto;
 }  
+
+.center{
+  text-align: center;
+  list-style-position: inside;
+}
+
+li{
+  text-align: center;
+}
 .name{
-  background-color:;
   font-size: 2rem;
   color: darkblue;
   margin: 0;
@@ -47,11 +61,12 @@ table, th, td {
 }  
 
 .social{
- color:#6495ED; 
+ color:white; 
  transition:color 0.2s;
  text-decoration:none;
  margin: 0 5px;
 } 
 .social:hover{
-color:#0047AB;
+color:black;
 }
+         
