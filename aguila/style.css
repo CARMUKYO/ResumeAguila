@@ -44,9 +44,18 @@ h3{
  margin-right:auto;
 }  
 
-.center{
+ol {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol li {
   text-align: center;
   list-style-position: inside;
+  background: #89CFF0;;
+  color: darkblue;
+  padding: 5px;
+  margin-left: 35px;
 }
 
 li{
