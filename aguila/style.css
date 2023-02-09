@@ -111,19 +111,19 @@ color:black;
 }
 
 input[type=submit]{
+  background-color: lightblue;
   width: 13em;
   height: 2em;
 }
 input[type=reset]{
+  background-color: lightblue;	
   width: 13em;
   height: 2em;
 }
-ul.buttons{
-  list-style: none;
-  text-align: center;
-}
-ul.buttons li{
-  display: inline-block;
+.buttons{
+  display: flex;
+  min-height: 0px;
+  justify-content: center;
 }
 
 ul.icons{
