@@ -30,7 +30,13 @@ table, th, td {
   height:50px;
   background-color: #89CFF0;
 }
-
+.education{
+  text-align:center;
+}
+.tab{
+ margin-left:auto;
+ margin-right:auto;
+}  
 .name{
   background-color:;
   font-size: 2rem;
