@@ -14,7 +14,7 @@ html {
 }
 
 .profile{
-    background-size:cover;
+  background-size:cover;
 	position: relative;
 	background-color: lightblue;
 	padding: 2rem 1rem;
@@ -58,15 +58,90 @@ li{
   margin: 0;
   margin-top: 1rem;
   text-align: center;
+}   
+
+.message{
+  font-size: 32px;
+  text-align: center;
+  color:darkblue;
 }  
 
+input[type=text] {
+  text-align: center;
+  margin: auto;
+  display:block;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+  transition: 0.2s;
+}
+
+input[type=Email] {
+  text-align: center;
+  margin: auto;
+  display:block;
+}
+
+input[type=Email]:focus {
+  width: 30%;
+  transition: 0.2s;
+  background-color: lightblue;
+}
+
+textarea{
+  width: 100%;
+  height: 200px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: lightblue;
+  font-size: 16px;
+  resize: none;
+}
 .social{
+ font-size: 64px;
  color:white; 
  transition:color 0.2s;
  text-decoration:none;
- margin: 0 5px;
+ margin: 0 10px;
 } 
 .social:hover{
 color:black;
 }
-         
+
+input[type=submit]{
+  width: 13em;
+  height: 2em;
+}
+input[type=reset]{
+  width: 13em;
+  height: 2em;
+}
+ul.buttons{
+  list-style: none;
+  text-align: center;
+}
+ul.buttons li{
+  display: inline-block;
+}
+
+ul.icons{
+  list-style: none;
+  text-align: center;
+}
+
+ul.icons li{
+  display: inline-block;
+}
+.back{
+  font-size: 64px;
+  color:white; 
+  transition:color 0.2s;
+  text-decoration:none;
+  margin: 0 5px;
+}
+
+.back:hover{
+  color:black;
+  }
