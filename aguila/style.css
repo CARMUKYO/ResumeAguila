@@ -46,3 +46,12 @@ table, th, td {
   text-align: center;
 }  
 
+.social{
+ color:#6495ED; 
+ transition:color 0.2s;
+ text-decoration:none;
+ margin: 0 5px;
+} 
+.social:hover{
+color:#0047AB;
+}
