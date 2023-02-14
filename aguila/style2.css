@@ -1,0 +1,22 @@
+body {
+  text-align:center;
+  font-family: 'Oswald';
+  background: #778899;
+}
+
+form{
+ margin:auto;
+ background:white; 
+  width: 50%;
+  height: 1000px;
+  padding: px 30px;
+}
+.submit{
+background:green;
+}
+
+.reset{
+background:red;
+}
+
+         

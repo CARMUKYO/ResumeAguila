@@ -1,0 +1,48 @@
+<html>
+<title>Regitration form</title>
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<script>
+function verifyPassword() {  
+  var pw = document.getElementById("password").value;  
+   if(pw.length < 8) {  
+   document.getElementById("message").innerHTML = "**Password length must be atleast   characters";  
+     return false;  
+  }  
+  
+}  
+</script>
+<body>
+<form>
+<h1>Registration Form</h1>
+<h3>First name: </h3>
+<input name="firstname" type="firstname"  />
+<h3> Last name:</h3>
+<input name="lastname" type="lastname"  />
+<h3> Nick Name: </h3>
+<input name="nickname" type="nickname"  />
+<h3> Email: </h3>
+<input name="email" type="email"  />
+<h3> Password: </h3>
+<input name="password" type="password"  />
+<h3> Date of birth: </h3>
+<input name="birthday" type="birthday" placeholder="dd/mm/yyy" />
+<h3> Gender: </h3>
+<input type="checkbox" id="male" name="male" value="male">
+<label for="male"> Male</label>
+<input type="checkbox" id="female" name="female" value="female">
+<label for="female"> Female</label>
+<input type="checkbox" id="other" name="other" value="other">
+<label for="other"> Other</label>
+<h3>Mobile: </h3>
+<input name="mobile" type="mobile" />
+<h3>Adress: </h3>
+<textarea name="Message" cols="21" rows="5"> </textarea>
+  <br>
+    <input class="submit" type="submit" value="submit">
+    <input class="reset" type="reset" value="reset">
+</form>
+<div></div>
+</body>
+</html>
